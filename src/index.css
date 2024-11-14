@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;  /* Ensure body takes up the full height */
+}
+
+
+
+@font-face {
+  font-family: anzo1;
+  src: url(./assets/dm-sans-400.woff2);
+}
+@font-face {
+  font-family: anzo2;
+  src: url(./assets/dm-sans-500-ext.woff2);
+}
+@font-face {
+  font-family: anzo3;
+  src: url(./assets/dm-sans-500.woff2);
+}
+@font-face {
+  font-family: anzo4;
+  src: url(./assets/dm-sans-700-ext.woff2);
+}
+@font-face {
+  font-family: anzo5;
+  src: url(./assets/dm-sans-700.woff2);
+}
+@font-face {
+  font-family: anzo6;
+  src: url(./assets/dm-sans-italic-400.woff2);
+}
+@font-face {
+  font-family: anzo7;
+  src: url(./assets/dm-sans-italic-500.woff2);
+}
+@font-face {
+  font-family: anzo8;
+  src: url(./assets/dm-sans-italic-700.woff2);
+}
+@font-face {
+  font-family:anzo9;
+  src: url(./assets/lazzer-900.woff2);
+}
